@@ -25,7 +25,7 @@ const CheckboxList = ({ options, onChange, value: values }) => {
     <CheckboxesWrapper>
       {options.map(option => (
         <CheckboxRow key={option.value} onClick={() => onCheckboxClick(option.value)}>
-          <input type="checkbox" checked={values.includes(option.value)} />
+          <input type="checkbox" checked={values.includes(option.value)} readOnly />
           {option.label}
         </CheckboxRow>
       ))}
