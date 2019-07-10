@@ -12,7 +12,8 @@ npm i
 npm start
 ```
 
-It will be accesible at [http://localhost:3001](http://localhost:3001)
+It will be accesible at [http://localhost:3001](http://localhost:3001).
+
 The exercise said that the shops should be searched with the param `query`. I changed that param to `shopName` in order to have better code consistency.
 
 ### Second terminal (React UI)
@@ -24,7 +25,7 @@ npm i
 npm start
 ```
 
-It will be accesible at [http://localhost:3000](http://localhost:3000) . Make sure you use localhost for this one since the node service has the CORS header allowing only that url.
+It will be accesible at [http://localhost:3000](http://localhost:3000). Make sure you use localhost for this one since the node service has the CORS header allowing only that url.
 
 Run `npm test` for jest snapshot testing.
 
