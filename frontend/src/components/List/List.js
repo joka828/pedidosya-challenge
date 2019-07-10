@@ -5,6 +5,8 @@ const List = styled.div`
   flex-direction: column;
   height: 100%;
   padding: 64px;
+  box-sizing: border-box;
+  overflow-y: scroll;
 `;
 
 export default List;

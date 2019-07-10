@@ -18,7 +18,6 @@ const ListWrapper = styled.div`
   position: relative;
   width: 80%;
   height: 100vh;
-  overflow-y: scroll;
 `;
 
 const Sidebar = styled.div`

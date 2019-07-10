@@ -16,5 +16,5 @@ const server = app.listen(3001, () => {
   const { port } = server.address();
 
   // eslint-disable-next-line no-console
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Service listening at http://%s:%s', host, port);
 });

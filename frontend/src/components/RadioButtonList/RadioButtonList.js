@@ -18,6 +18,7 @@ const RadioButtonList = ({ options, onChange, value }) => (
         <input
           type="radio"
           checked={value === option.value}
+          readOnly
         />
         {option.label}
       </RadioButtonRow>
